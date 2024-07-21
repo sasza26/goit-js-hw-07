@@ -1,17 +1,18 @@
 .gallery {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
-  gap: 24px 24px;
-  padding: 100px 156px;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
 }
 
-.img-t2 {
-  height: 250px;
+.gallery li {
+  width: calc((100% - 48px) / 3);
+  box-sizing: border-box;
 }
 
-.img-t2:hover {
-  opacity: 0.5;
-  transition: 0.3s;
+.gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
 }

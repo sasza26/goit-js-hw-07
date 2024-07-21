@@ -1,4 +1,8 @@
-function getRandomHexColor() {}
+function getRandomHexColor() {
+  return `#${Math.floor(Math.random() * 16777215)
+    .toString(16)
+    .padStart(6, 0)}`;
+}
 
 const reference = {
   controls: document.querySelector("#controls input"),
@@ -35,15 +39,3 @@ reference.create.addEventListener("click", function () {
 });
 
 reference.destroy.addEventListener("click", destroyBoxes);
-
-// reference.create.addEventListener('click', function () {
-//   const amount = reference.controls.value;
-//   if (amount > 0) {
-//     createBoxes(amount);
-//   }
-// });
-
-// reference.destroy.addEventListener('click', function () {
-//   reference.boxes.innerHTML = '';
-// });
-// createBoxes();
