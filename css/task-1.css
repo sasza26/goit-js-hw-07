@@ -1,0 +1,26 @@
+#categories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  padding: 16px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: none;
+  width: 392px;
+  background-color: #f6f6fe;
+}
+
+.item > h2 {
+  padding: 0 16px;
+}
+
+.item > ul > li {
+  border: 1px solid #808080;
+  margin: 8px;
+  border-radius: 4px;
+  padding: 8px;
+}

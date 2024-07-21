@@ -1,0 +1,16 @@
+.widget {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.change-color {
+  background-color: #4e75ff;
+  color: #ffffff;
+  border-radius: 8px;
+  width: 148px;
+  height: 40px;
+  border: none;
+}

@@ -1,0 +1,17 @@
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px 24px;
+  padding: 100px 156px;
+}
+
+.img-t2 {
+  height: 250px;
+}
+
+.img-t2:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+}

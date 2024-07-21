@@ -1,0 +1,46 @@
+div > #controls {
+  width: 486px;
+  height: 104px;
+}
+
+#controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  background-color: #f6f6fe;
+  margin-bottom: 40px;
+}
+
+#controls > input {
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #808080;
+  text-align: center;
+}
+
+button[data-create] {
+  background-color: #4e75ff;
+  color: #ffffff;
+  border-radius: 8px;
+  width: 86px;
+  height: 40px;
+  border: none;
+}
+
+button[data-destroy] {
+  background-color: #ff4e4e;
+  color: #ffffff;
+  border-radius: 8px;
+  width: 86px;
+  height: 40px;
+  border: none;
+}
+
+#boxes {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+}
